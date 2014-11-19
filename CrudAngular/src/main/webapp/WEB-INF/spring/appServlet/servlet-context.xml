@@ -63,7 +63,7 @@ http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
 	<!-- BEAN RESPONSAVEL PELA PERSISTENCIA JPA -->
 	<bean id="entityManagerFactory"
 		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
-		<property name="dataSource" ref="DataSource" />
+		<property name="persistenceUnitName" value="DataSource" />
 		<property name="jpaVendorAdapter">
 			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" />
 		</property>
