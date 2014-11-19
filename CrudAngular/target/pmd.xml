@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.1.2" timestamp="2014-11-19T17:21:19.583">
+<file name="C:\Users\Guylherme\git\crudAngularJs\CrudAngular\src\main\java\com\eits\crudangular\controller\TarefasController.java">
+<violation beginline="9" endline="9" begincolumn="1" endcolumn="45" rule="UnusedImports" ruleset="Import Statements" package="com.eits.crudangular.controller" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.servlet.http.HttpServletRequest'
+</violation>
+</file>
+<file name="C:\Users\Guylherme\git\crudAngularJs\CrudAngular\src\main\java\com\eits\crudangular\model\JpaTarefaDao.java">
+<violation beginline="8" endline="8" begincolumn="1" endcolumn="31" rule="UnusedImports" ruleset="Import Statements" package="com.eits.crudangular.model" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.persistence.Query'
+</violation>
+</file>
+<file name="C:\Users\Guylherme\git\crudAngularJs\CrudAngular\src\main\java\com\eits\crudangular\service\Remote.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="54" rule="UnusedImports" ruleset="Import Statements" package="com.eits.crudangular.service" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.directwebremoting.annotations.RemoteMethod'
+</violation>
+<violation beginline="4" endline="4" begincolumn="1" endcolumn="53" rule="UnusedImports" ruleset="Import Statements" package="com.eits.crudangular.service" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.directwebremoting.annotations.RemoteProxy'
+</violation>
+</file>
+</pmd>
