@@ -55,6 +55,7 @@ public class Tarefa implements Serializable{
 	
 	public void setFinalizado(boolean finalizado) {
 		this.finalizado = finalizado;
+		// teste
 	}
 	
 	public Calendar getDataFinalizacao() {
